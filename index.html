@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>FPS Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- USERNAME SCREEN -->
+    <div id="username-screen">
+        <h1>Enter Username</h1>
+        <input type="text" id="username-input" placeholder="Enter username...">
+        <p id="username-error"></p>
+        <button id="username-btn">Continue</button>
+    </div>
+
+    <!-- GAME SCREEN -->
+    <div id="game-screen" style="display:none;">
+        <div id="player-username"></div>
+        <canvas id="gameCanvas"></canvas>
+    </div>
+
+    <script src="username.js"></script>
+    <script src="game.js"></script>
+</body>
+</html>
